@@ -29,20 +29,35 @@
       </div>
     </header>
     <div></div>
-    <footer>
+    <footer class="site-footer">
         <div class="newsletter-subscription">
             <h2>Abonnez-vous à notre newsletter</h2>
-            <form action="/subscribe" method="post">
-              <label for="email">E-mail</label>
-              <input type="email" id="email" name="email" placeholder="Votre adresse e-mail" required>
-              <button type="submit">Envoyer</button>
-            </form>
-          </div>
-        <div>
-            <div></div>
-            <div></div>
-            <div></div>
+                <form action="/subscribe" method="post">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="Votre adresse e-mail" required>
+                    <button type="submit">Envoyer</button>
+                </form>
+                <link rel="stylesheet" href="src/newsletter-subscription.css">
+            </div>
+        <div class="footer-links">
+            <div class="footer-column">
+                <h3>Boutique</h3>
+            <!-- Liens de la boutique ici -->
+            </div>
+            <div class="footer-column">
+                <h3>Service client</h3>
+            <!-- Liens du service client ici -->
+            </div>
+            <div class="footer-column">
+                <h3>Découvrir Chez.soi</h3>
+            <!-- Liens pour découvrir Chez.soi ici -->
+            </div>
         </div>
+        <div class="footer-bottom">
+            <p>Chez.soi | 47 rue des Couronnes 75020 Paris, France | 01 23 45 67 89 | info@mondomaine.com</p>
+            <!-- Icônes de réseaux sociaux ici -->
+        </div>
+        <div>
     </footer>
 </body>
 </html>

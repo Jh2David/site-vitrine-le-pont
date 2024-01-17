@@ -1,0 +1,64 @@
+.newsletter-subscription {
+    background-color: #2c3e50; /* Couleur de fond de votre choix */
+    color: #fff; /* Couleur du texte */
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+    display: inline-block;
+}
+
+.newsletter-subscription h2 {
+    margin-bottom: 20px;
+}
+
+.newsletter-subscription form {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.newsletter-subscription label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.newsletter-subscription input[type="email"] {
+    width: 300px; /* Largeur du champ de saisie */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #3F5C58; /* Couleur de bordure de votre choix */
+    border-radius: 5px;
+}
+
+.newsletter-subscription button {
+    padding: 10px 20px;
+    background-color: #3F5C58; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte du bouton */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newsletter-subscription button:hover {
+  background-color: #3F5C58; /* Couleur de fond du bouton au survol */
+}
+
+.site-footer {
+    background-color: #3F5C58; /* Couleur de fond pour tout le footer */
+    color: #ffffff; /* Couleur du texte pour tout le footer */
+    padding: 20px; /* Ajustez selon vos besoins */
+}
+
+.footer-links {
+    background-color: #3F5C58; /* Couleur de fond pour tout le footer */
+    color: #ffffff; /* Couleur du texte pour tout le footer */
+    padding: 20px; /* Ajustez selon vos besoins */
+    display: inline-block;
+}
+
+.footer-column {
+    display: inline-block;
+}
+
+.footer-column > h3 {
+    margin: 10px;
+}
