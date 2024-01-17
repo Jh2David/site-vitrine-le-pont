@@ -3,44 +3,72 @@
 <head>
   <meta charset="utf-8">
   <title>Titre de la page</title>
+  <link rel="stylesheet" href="src/style.css">
   <link rel="stylesheet" href="index.css">
-</head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
 <body>
     <header>
-        <div id="top_header">
+              <div id="top_header">
             <div>25% mobilier</div>
             <div>30% tapis</div>
             <div>30% luminaire</div>
             <div>Livraison gratuite</div>
         </div>
-        <div id="menu"></div>
+        <div id="menu">
+            <nav>
+                <a href="">Tout voir</a>
+                <a href="">Mobilier</a>
+                <a href="">Luminaire</a>
+                <a href="">Tapis</a>
+                <a href="">A propos</a>
+                <a href="">Histoire</a>
+                <a href="">Contact</a>
+            </nav>
+      </div>
         <div id="reseaux"></div>
+        <div class="social-commerce-container">
+          <div class="social-icons">
+              <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+              <a href="https://www.twitter.com" class="fa fa-twitter"></a>
+              <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+          </div>
+          <div class="commerce-links">
+              <a href="/connexion">Connexion</a>
+              <a href="/cart" class="fa fa-shopping-cart"></a>
+          </div>
+      </div>
     </header>
-    <div>
-      <nav>
-        <a href="">Tout voir</a>
-        <a href="">Mobilier</a>
-        <a href="">Luminaire</a>
-        <a href="">Tapis</a>
-        <a href="">A propos</a>
-        <a href="">Histoire</a>
-        <a href="">Contact</a>
-    </nav>
-    </div>
-    <footer>
+    <div></div>
+    <footer class="site-footer">
         <div class="newsletter-subscription">
             <h2>Abonnez-vous à notre newsletter</h2>
-            <form action="/subscribe" method="post">
-              <label for="email">E-mail</label>
-              <input type="email" id="email" name="email" placeholder="Votre adresse e-mail" required>
-              <button type="submit">Envoyer</button>
-            </form>
-          </div>
-        <div>
-            <div></div>
-            <div></div>
-            <div></div>
+                <form action="/subscribe" method="post">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="Votre adresse e-mail" required>
+                    <button type="submit">Envoyer</button>
+                </form>
+                <link rel="stylesheet" href="src/newsletter-subscription.css">
+            </div>
+        <div class="footer-links">
+            <div class="footer-column">
+                <h3>Boutique</h3>
+            <!-- Liens de la boutique ici -->
+            </div>
+            <div class="footer-column">
+                <h3>Service client</h3>
+            <!-- Liens du service client ici -->
+            </div>
+            <div class="footer-column">
+                <h3>Découvrir Chez.soi</h3>
+            <!-- Liens pour découvrir Chez.soi ici -->
+            </div>
         </div>
+        <div class="footer-bottom">
+            <p>Chez.soi | 47 rue des Couronnes 75020 Paris, France | 01 23 45 67 89 | info@mondomaine.com</p>
+            <!-- Icônes de réseaux sociaux ici -->
+        </div>
+        <div>
     </footer>
 </body>
 </html>
